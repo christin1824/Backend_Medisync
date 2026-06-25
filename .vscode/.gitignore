@@ -1,0 +1,8 @@
+# Abaikan folder config IDE dan build
+.vscode/
+target/
+.idea/
+
+# Abaikan kredensial sensitif
+firebase-service-account.json
+**/firebase-service-account.json
