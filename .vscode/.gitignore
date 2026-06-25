@@ -1,8 +1,10 @@
-# Abaikan folder config IDE dan build
+# Abaikan konfigurasi IDE dan build
 .vscode/
 target/
 .idea/
+*.class
 
-# Abaikan kredensial sensitif
-firebase-service-account.json
+# Abaikan semua file berbau firebase json secara total
+**/*firebase*.json
 **/firebase-service-account.json
+firebase-service-account.json
